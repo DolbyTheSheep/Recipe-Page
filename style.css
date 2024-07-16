@@ -115,3 +115,29 @@ td {
     padding: 5px;
     padding-left: 15px;
 }
+
+@media screen and (max-width: 900px) {
+
+    body {
+        padding: 0px;
+        margin: 0px;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    main {
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+        border-radius: 0px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 0px;
+    }
+
+    #recipe {
+        padding: 7%;
+    }
+}
